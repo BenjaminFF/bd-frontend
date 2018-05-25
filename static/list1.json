@@ -1,0 +1,41 @@
+[{
+  "text": "简单的菜单动画",
+  "chosen":false,
+  "link":"/bdemo1"
+},
+  {
+    "text": "CSS2D变形",
+    "chosen":false,
+    "link":"/bdemo1"
+  },
+  {
+    "text": "transition和transform配合动画",
+    "chosen":false,
+    "link":"/bdemo1"
+  },
+  {
+    "text": "3D空间的卡片翻转动效",
+    "chosen":false,
+    "link":"/bdemo1"
+  },
+  {
+    "text": "纯CSS制作绕中轴旋转的立方体",
+    "chosen":false,
+    "link":"/bdemo1"
+  },
+  {
+    "text": "animation制作一个Slider",
+    "chosen":false,
+    "link":"/bdemo1"
+  },
+  {
+    "text": "animate.css实现登录框",
+    "chosen":false,
+    "link":"/bdemo1"
+  },
+  {
+    "text": "AE动画转换成Web原生动画",
+    "chosen":false,
+    "link":"/bdemo1"
+  }
+]

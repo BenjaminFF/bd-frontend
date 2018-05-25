@@ -43,7 +43,7 @@ export default {
   .sidebar{
     border-right: 1px solid lightgray;
     width: 19em;
-    height: 100%;
+    min-height: 50em;
     display: flex;
     flex-direction: column;
   }

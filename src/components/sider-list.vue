@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <div class="title">{{listTitle}}</div>
-    <div v-for="(item,index) in list" v-bind:key="index" class="item">{{item.text}}</div>
+    <div v-for="(item,index) in list" v-bind:key="index" class="item">
+      <router-link v-bind:to="item.link" class="link-style">{{item.text}}</router-link>
+      </div>
   </div>
 </template>
 
@@ -42,11 +44,15 @@ export default {
     height: 2em;
     align-items: center;
   }
-  .item:hover{
+  .link-style:hover{
     cursor: pointer;
     color: green;
   }
-  .item:focus{
-    color: green;
+  .link-style:focus{
+    color: #005800;
+  }
+  .link-style{
+    text-decoration: none;
+    color: gray;
   }
 </style>
